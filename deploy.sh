@@ -23,6 +23,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
 # 如果使用 travis 持续集成
-git push -f https://${GH_TOKEN}@github.com/ehco3722/test.git master:gh-pages
+git push -f https://${GH_TOKEN}@github.com/ehco3722/vuepress.git master:gh-pages
 
 cd -
