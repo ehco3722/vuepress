@@ -3,7 +3,7 @@ home: true
 # heroImage: /logo.jpg
 actionText: Get Start →
 actionLink: /test/
-description: 分享3
+description: 分享4
 features:
 - title: Vue
   details: 开发利器。尽快把它写完下掉。
