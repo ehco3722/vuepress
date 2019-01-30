@@ -1,19 +1,11 @@
-// const path = require('path')
-
 module.exports = {
   title: '2019-01-25',  // 设置网站标题
   // dest: './dist',    // 设置输出目录
   base: '/vuepress/', // 设置站点根路径
   // repo: 'https://ehco3722.github.io/vuepress', // 添加 github 链接
-  configureWebpack: {
-    resolve: {
-      alias: {
-        'alia': '../.vuepress/public' // path.resolve(__dirname, './public')   // 'public'
-      }
-    }
-  },
   themeConfig: {
     sidebarDepth: 3,
+    // lastUpdated: '上次更新',
     // 添加导航栏
     nav: [
       { text: 'vue', link: '/vue/one' },
@@ -57,7 +49,7 @@ module.exports = {
           collapsable: false,
           children: [
             '中断',
-            // ''
+            '结构和内存分层体系',
           ]
         }
       ],
